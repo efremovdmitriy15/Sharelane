@@ -46,7 +46,7 @@ import static org.testng.Assert.assertEquals;
             assertEquals(actualError, "Oops, error on page. ZIP code should have 5 digits", "wrong error message show");
             driver.quit();
         }
-
+//
         @Test
         public void zipCodeLetters(){
             System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");//выставление системной переменной
